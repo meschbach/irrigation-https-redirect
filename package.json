@@ -1,0 +1,22 @@
+{
+  "name": "irrigation-https-redirect",
+  "version": "0.0.1",
+  "description": "Redirects clients to HTTPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mark Eschbach <meschbach@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "1.8.12",
+    "junk-bucket": "1.0.6",
+    "yargs": "12.0.2"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.5"
+  }
+}
