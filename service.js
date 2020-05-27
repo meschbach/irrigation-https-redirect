@@ -15,4 +15,4 @@ server.start(argv.port).then(function (url) {
 function shutdown() {
 	server.stop();
 }
-["SIGHUP","SIGTERM","SIGINT"].forEach((s) => process.on(s, shutdown()));
+["SIGHUP","SIGTERM","SIGINT"].forEach((s) => process.on(s, shutdown));
