@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:13.6.0-alpine
 
 ADD . /app
 ENV NODE_ENV production

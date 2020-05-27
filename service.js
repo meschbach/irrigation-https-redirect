@@ -11,3 +11,8 @@ server.start(argv.port).then(function (url) {
 }).catch(function ( problem ) {
 	console.error( problem );
 });
+
+function shutdown() {
+	server.stop();
+}
+["SIGHUP","SIGTERM","SIGINT"].forEach((s) => process.on(s, shutdown()));
