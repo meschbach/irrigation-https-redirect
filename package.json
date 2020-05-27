@@ -1,6 +1,6 @@
 {
   "name": "irrigation-https-redirect",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Redirects clients to HTTPS",
   "main": "index.js",
   "scripts": {
